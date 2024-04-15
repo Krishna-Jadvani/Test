@@ -1,0 +1,55 @@
+﻿body {
+    
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    padding-top: 100px; 
+}
+
+.card {
+    opacity: 0.95; 
+    border-radius: 8px; 
+}
+
+.card-header {
+    background-color: #a52a2a;
+    color: white;
+}
+
+.card-body {
+    background-color: #fffefa; 
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 2px solid #ccc; 
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: calc(100% - 22px); 
+}
+
+.btn-primary {
+    background-color: #800000;
+    border-color: #700000;
+}
+
+    .btn-primary:hover {
+        background-color: #701010;
+    }
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding-top: 50px; 
+    }
+}
